@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar flex justify-between items-center px-8 py-4 bg-[var(--primary-color)] text-white">
+        <h1 class="nav-item text-4xl font-bold"><img class="inline" src="./src/logo.png" alt="logo" width="40px">Pizzo</h1>
+
+        <ul class="nav-item flex text-xl font-semibold">
+            <li class="nav-item px-4">About</li>
+            <li class="nav-item px-4">Menu</li>
+            <li class="nav-item px-4">Delivey</li>
+            <li class="nav-item px-4">Contact</li>
+        </ul>
+
+        <img class="nav-item" src="./src/man.png" alt="delivery boy" width="60px">
+    </div>
+
+    <div class="hero relative h-screen p-18 bg-[var(--primary-color)]">
+        <svg class="hero-item absolute -top-3" width="500" height="100" viewBox="0 0 696 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 153C3 153 29.904 96.3627 63.5 89C106.88 79.4929 101.5 102.5 157.5 153C213.5 203.5 213 36 245 79C277 122 286.824 141.491 329 153C397.11 171.586 505.5 -53 485.5 62.5C465.5 178 500.022 211.969 554.5 153C608.978 94.0308 639.522 60.9692 694 2" stroke="#FBE074" stroke-width="5"/>
+        </svg>
+        <h1 class="hero-item text-9xl leading-30 text-white font-bold w-200">
+            The best pizza to share with friends
+        </h1>
+        <button class="hero-item text-white text-xl p-6 my-8 cursor-pointer bg-black w-60 rounded-full">Get coupon now</button>
+        
+        <img class="box z-40 absolute size-230 -top-15 -right-0 -translate-x-110 -translate-y-20" src="./src/webppizza.webp" alt="">
+
+        <div class="w-[99vw] overflow-hidden -rotate-2 inline-flex truncate z-40 absolute bottom-5 -left-2 bg-[var(--secondary-color)]">
+           <p class="delivery-tag text-3xl py-4 font-bold">🍕 Now We deliver in your town 🍕 Now We deliver in your town 🍕 Now We deliver in your town </p> 
+           <p class="delivery-tag text-3xl py-4 font-bold">🍕 Now We deliver in your town 🍕 Now We deliver in your town 🍕 Now We deliver in your town </p> 
+        </div>
+    </div>
+
+    <div class="section-2 z-10 h-screen bg-[var(--secondary-color)]">
+        <h1 class=" text-8xl font-bold text-center p-4 text-[var(--primary-color)]">Best Price In Town</h1>
+        <div class="absolute w-180 right-0 text-center my-20 mx-8">
+            <p class="text-8xl font-bold m-4">Taste Your Pizza At Best Price</p>
+            <button class="text-4xl font-bold m-4 p-6 rounded-2xl text-white  bg-[var(--primary-color)]">Veggie Blaster</button>
+            <button class="text-4xl font-bold m-4 p-6 rounded-2xl bg-white">At Only $5.99</button>
+        </div>
+    </div>
+    
+    <div class="section-3 h-full bg-[var(--primary-color)]">
+        <h1 class="text-8xl font-bold text-center p-4 text-white">Popular Pizzas</h1>   
+        <div class="menu-cards flex justify-center gap-25 py-20">
+
+            <div class="card flex flex-col justify-between">
+                <div class="card-img h-[50vh]">
+                 <img src="./src/top-view-delicious-pizza.png" alt="">
+                </div>
+                <div class="px-5 py-3">
+                    <h2 class="text-3xl font-semibold">Pepporoni pizza</h2>
+                    <p class="text-xl pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quidem.</p>
+                </div>
+
+                <div class="card-btns flex justify-between px-5 py-3">
+                    <button class="text-2xl font-bold ">$4.99</button>
+                    <button class="text-2xl">order</button>
+                </div>
+            </div>
+
+            <div class="card flex flex-col justify-between">
+                <div class="card-img h-[50vh]">
+                 <img src="" alt="">
+                </div>
+                <div class="px-5 py-3">
+                    <h2 class="text-3xl font-semibold">Veggie Blaster</h2>
+                    <p class="text-xl pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quidem.</p>
+                </div>
+
+                <div class="card-btns flex justify-between px-5 py-3">
+                    <button class="text-2xl font-bold ">$5.99</button>
+                    <button class="text-2xl">order</button>
+                </div>
+            </div>
+
+            <div class="card flex flex-col justify-between">
+                <div class="card-img h-[50vh]">
+                 <img src="./src/5678.png" alt="">
+                </div>
+                <div class="px-5 py-3">
+                    <h2 class="text-3xl font-semibold">Tomato Cheese</h2>
+                    <p class="text-xl pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quidem.</p>
+                </div>
+
+                <div class="card-btns flex justify-between px-5 py-3">
+                    <button class="text-2xl font-bold ">$3.99</button>
+                    <button class="text-2xl">order</button>
+                </div>
+            </div>
+            
+        </div> 
+    </div>
+
+<div class="section-4 flex justify-between">
+        <div class="w-[50%] p-20">
+            <h1 class="text-8xl text-[var(--secondary-color)] font-bold py-6">We Gurantee  30 Minutes Deliver</h1>
+            <button class="text-4xl font-bold p-6 rounded-2xl text-white bg-[var(--primary-color)]">Order Now</button>
+        </div>
+        <img src="./src/top-view-busy-courier-man-wearing-red-blouse-hat-gloves-medical-mask-sitting-scooter-pointing-order.png" alt="" width="600px">
+    </div>
+
+    <div class="footer  p-25 h-96 bg-[var(--primary-color)]">
+        <div class="flex justify-between">
+        <ul class=" text-3xl text-white cursor-pointer">
+            <li class="py-3">
+                About Us
+            </li>
+            <li class="py-3">
+                Contant
+            </li>
+            <li class="py-3">
+                Resturant
+            </li>
+        </ul>
+        <ul class=" text-3xl text-white cursor-pointer">
+            <li class="py-3">
+                Menu
+            </li>
+            <li class="py-3">
+                Popular items
+            </li>
+            <li class="py-3">
+                Order Online
+            </li>
+        </ul>
+        <ul class=" text-3xl text-white cursor-pointer">
+            <li class="py-3">
+                Meet Chefs
+            </li>
+            <li class="py-3">
+                Feedback
+            </li>
+            <li class="py-3">
+                Location
+            </li>
+        </ul>
+        </div>
+        <h1 class="text-center text-2xl text-white pt-10">
+            Copyrights reserved by Adeel
+        </h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

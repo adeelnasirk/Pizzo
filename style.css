@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #ED4231 ;
+    --secondary-color: #FFF2E7;
+    scroll-behavior: smooth;
+}
+.box{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+.card{
+    background-color: var(--secondary-color);
+    width: 25vw;
+    height: 75vh;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-img img{
+    position: absolute;
+    top:30%;
+}
+
+.section-4{
+    background-image: url(./src/rowan-freeman-clYlmCaQbzY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:blur(50) ;
+}
