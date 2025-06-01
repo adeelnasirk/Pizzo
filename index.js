@@ -15,32 +15,32 @@ tl.to(".delivery-tag", {
   });
 
 
-gsap.to('.box',{
+tl.to('.box',{
   scrollTrigger:{
     trigger:'.hero',
     start:'90% 70%',
     end:'150% 50%',
     scrub:true,
   },
-  top: '90%',
+  top: '100%',
   right:'50%',
-  rotation:90,
   scale:0.6,
 })
-gsap.to('.box',{
+
+tl.to('.box',{
   scrollTrigger:{
-    trigger:'.section-3',
-    start:'10% 90%',
-    end:'55% 70%',
+    trigger:'.section-2',
+    start:'50% 50%',
+    end:'120% 40%',
     scrub:true,
   },
   top: '185%',
-  right:'21%',
+  right:'25%',
   scale: 0.5,
 })
 
 
-gsap.to('.card-img img',{
+tl.to('.card-img img',{
     scrollTrigger: {
       trigger: '.section-3',
       start: '20% 50%',

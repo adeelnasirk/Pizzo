@@ -4,7 +4,16 @@
     scroll-behavior: smooth;
 }
 .box{
+    width: 50vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hero{
+    height: 100vh;
+}
+
+.section-2{
+    height: 100vh;
 }
 .card{
     background-color: var(--secondary-color);
