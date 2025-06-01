@@ -3,6 +3,22 @@
     --secondary-color: #FFF2E7;
     scroll-behavior: smooth;
 }
+.text-xl{
+ font-size: 1.125rem;
+ line-height: 1.5rem;
+}
+.text-2xl{
+    font-size: 1.5rem;
+    line-height: calc(2 /1.5);
+}
+.text-9xl{
+    font-size: 8rem;
+    line-height: 8rem;
+}
+.text-8xl{
+    font-size: 6rem;
+    line-height: 6rem;
+}
 .box{
     width: 50vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1);
